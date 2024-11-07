@@ -16,3 +16,7 @@ myArray.pop();
 myArray.pop();
 console.log(myArray)
 // Output: (7) [25, 30, 35, 40, 45, 50, 55]
+// 4. 
+let myString = "Hello World!";
+console.log(myString.length) 
+// Output: 12
