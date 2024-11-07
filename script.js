@@ -7,3 +7,12 @@ console.log(myArray[4]); // Output: 45
 for (let i= 0; i < myArray.length; i++) {
     console.log(myArray[i]);
 }
+// 3.
+myArray.push(50, 55, 60, 65, 70);
+console.log(myArray);
+// Output: (10) [25, 30, 35, 40, 45, 50, 55, 60, 65, 70]
+myArray.pop();
+myArray.pop();
+myArray.pop();
+console.log(myArray)
+// Output: (7) [25, 30, 35, 40, 45, 50, 55]
